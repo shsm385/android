@@ -3,9 +3,9 @@
 
     <!-- AdMob -->
     <!-- this is identifier of AdMob for debug -->
-    <!--  string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string-->
+    <!--  string name="banner_ad_unit_id">広告のパスワードを記入</string-->
     <!-- this is identifier of AdMob for product -->
-    <string name="banner_ad_unit_id">ca-app-pub-6277935195775081/1579228452</string>
+    <string name="banner_ad_unit_id">**-***-***-****************/************</string>
 
     <!-- common -->
     <string name="empty"></string>
