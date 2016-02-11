@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/ImageChar"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:src="@drawable/main_char"
+        android:layout_marginTop="-50dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/empty"
+        />
+
+    <LinearLayout
+         android:layout_width="wrap_content"
+   		 android:layout_height="wrap_content"
+   		 android:orientation="vertical"
+   		 android:background="@drawable/play_border"
+  		 android:layout_marginTop="-80dp"
+   		 android:layout_marginBottom="20dp"
+	     android:layout_marginLeft="25dp"
+		 android:layout_marginRight="25dp"
+		 android:layout_gravity="center"
+		 android:padding="15dp"
+		 android:gravity="center"
+         >
+	    <TextView
+	    	android:id="@+id/HowToPlay"
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="15sp"
+	        android:gravity="center"
+	        android:text="@string/how_to_play"
+	        android:paddingBottom="5dp"
+	        />
+
+	    <TextView
+	        android:id="@+id/PlayContents"
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="15sp"
+	        android:gravity="left"
+	        android:text="@string/play_content"
+	        />
+    </LinearLayout>
+
+	<Button
+	    android:id="@+id/btnStart"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_marginBottom="15dp"
+	    android:layout_marginLeft="70dp"
+	    android:layout_marginRight="70dp"
+	    android:text="@string/main_start_button"
+	    android:background="@drawable/button_setting"
+	    />
+
+	<Button
+	    android:id="@+id/btnHistry"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginLeft="70dp"
+	    android:layout_marginRight="70dp"
+	    android:text="@string/main_histry_button"
+	    android:background="@drawable/button_setting"
+	    />
+</LinearLayout>
+
